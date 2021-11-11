@@ -19,7 +19,9 @@
         
                 <header>
 
-                    <a class="mobile-nav"></a>
+                    <img src="media/menu.png" alt="es" id="mobil" onclick="myFunction()">
+                    <a class="mobile-nav" ></a>
+
         
                     <nav>
                 
@@ -84,12 +86,9 @@
 <script>
 
 function myFunction() {
-  var x = document.getElementById("myDropdown");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+    var navBar = document.getElementsByClassName("nav-links");
+    navBar[0].classList.toggle("mobile-nav-on")
+
 }
 </script>
 </body>
