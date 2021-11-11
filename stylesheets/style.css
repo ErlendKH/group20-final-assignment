@@ -222,81 +222,34 @@ article figcaption {
 @media only screen and (min-width: 400px)
 and (max-width : 600px) {
 
+.mobile-nav{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+    cursor: pointer;
+}
+.nav-links li{
+    display: block;
+    padding: 10px;
+    
+}
 
+nav{
     
-    h1 {
-        text-align: center;
-        /* background-color: green; */
-        color: rgb(255, 255, 255);
-        font-size: 4rem;
-    
-        padding: 4rem;
-    }
+}
 
 
-    nav {
-        background-color: white;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    
-        padding: 16px 24px;
-    
-        font-weight: bold;
-    }
-    
-    nav > p {
-        /* margin: 0; */
-        /* padding-left: 24px; */
-        color: black;
-    }
-    
-    .nav-links li {
-        display: inline-block;
-        /* margin: 0 16px; */
-        /* margin-left: 24px; */
-    
-        color: darkblue;
-    }
-    
-    .nav-only li {
-        margin-left: 24px;
-    }
-    
-    .nav-links li a {
-        text-decoration: none;
-        padding: 8px 0;
-        position: relative;
-        cursor: pointer;
-    }
-    
-    .nav-links li a::after{
-        content: '';
-        background: #ff3d00;
-        width: 0;
-        height: 2px;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        transition: width 0.5s;
-    }
-    
-    .nav-links li a:hover::after{
-        width: 100%;
-    }
-    .dropbtn{
-        display: block;
-    }
-    .dropdown-content{
-        display: none;
-    }
 
-    #myDropdown{
-        display: none;
-    }
-    .show {
-        display: block;
-      }
+
+
+
+
+
+
+
+
+
 
 
 
